@@ -9,11 +9,11 @@
 ## *Location*
 Minsk,Belarus
 
-====
+
 # *Currently*
 I'm a Frontend Developer with medical education. Always ready to learn something new, attentive to details, responsible for tasks.
 
-====
+
 ## *Education*
 Belarusian State Medical University (2013-2019),
 Faculty of pediatric
@@ -24,7 +24,7 @@ Stepik:
 
 RS School. Курс JS/Frontend-разработка. Подготовительный этап - now.
 
-====
+
 # *Skills*
 - HTML
 - CSS
@@ -32,6 +32,6 @@ RS School. Курс JS/Frontend-разработка. Подготовитель
 - JS
 - SQL
 
-=====
+
 # *English*
 Level-B1
