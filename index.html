@@ -15,7 +15,7 @@
    <div class="container">
     <header class="header">
         
-            <img src="/assets/img/image.jpg" alt="avatar" class="avatar" >
+            <img src="./assets/img/image.jpg" alt="avatar" class="avatar" >
             
             <div class="header_profile">
                 <h1 class="header_title">Darya Patsko</h1>
@@ -81,11 +81,15 @@
             <div class="code" id="code" >
                 <h2 class="title_code">Code</h2>
                 <code>
-                    function factoral(n) {
-                    if (n <0) return null;
-                    if (n <= 1) return 1;
-                    return n * factorial(n-1);
-                    }
+                    function digits(n) {
+                        let str= String(n);
+                         return str.length;
+                       }
+
+                    function removeChar(str){
+                        let newWord = str.slice(1 ,str.length - 1);
+                          return newWord;
+                        };      
                 </code>
 
             </div>
@@ -111,7 +115,7 @@
     <footer class="footer">
         
         <a class="footer_github" href="https://github.com/daryapatsko" target="_blank">GitHub</a>
-        <a class="footer_rss" href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" alt="logo" width="60px" height="60px"></a> 
+        <a class="footer_rss" href="https://rs.school/js/" target="_blank"><img src="./assets/img/logo_rs.svg" alt="logo" width="60px" height="60px"></a> 
         <p class="footer_year">2022-2023</p>
      
           
