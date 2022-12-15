@@ -53,16 +53,14 @@
 .header_title::after { width: 100%; }
 
 .navigation_list{
-    display:flex;
-    align-items: flex-end ;
+    display: flex;
+    justify-items: flex-end;
+    margin-top: 100px;
+       
 }
-.navigation_list{
-list-style:none;
-}
-
-.navigation_link{
-    padding: 0 20px;
-    line-height: 50px; 
+.navigation_item{
+    display: inline-block;
+    width: 90px;
 }
 
 .navigation_item{
@@ -139,5 +137,9 @@ h2 {
 .footer_rss{
     width:60px;
     height:60px;
+}
+
+.contacts_list{
+    list-style: none;
 }
    
