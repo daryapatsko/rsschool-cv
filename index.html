@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/fav/favicon.ico">
 </head>
-<body>
+<link rel="stylesheet" href="style.css">
+   <body>
+   <div class="container">
+    <header class="header">
+        
+            <img src="/assets/img/image.jpg" alt="avatar" class="avatar" >
+            
+            <div class="header_profile">
+                <h1 class="header_title">Darya Patsko</h1>
+                <h2>Front-end Developer</h2>
+            </div>
+
+            <nav class="navigation">
+                <ul class="navigation_list">
+                    <li class="navigation_item"><a href="#contacts" class="contact_link">Contacts</a></li>
+                    <li class="navigation_item"><a href="#courses" class="contact_link">Courses</a></li>
+                    <li class="navigation_item"><a href="#skills" class="contact_link">Skills</a></li>
+                    <li class="navigation_item"><a href="#summary" class="contact_link">Summary</a></li>
+                    <li class="navigation_item"><a href="#code" class="contact_link">Code</a></li>
+                    <li class="navigation_item"><a href="#education" class="contact_link">Education</a></li>
+                    <li class="navigation_item"><a href="#english" class="contact_link">English</a></li>
+                </ul>
+            </nav>
+      
+    </header>
+
+    <main class="resume">
+        <section class="left_side">
+           
+            <div class="contacts" id="contacts">
+                 <h2 class="contacts_title">Contacts</h2>
+                    <ul class="contacts_list">
+                        <li class="contacts_item">Telegram:+375293875733</li>
+                        <li class="contacts_item">Discord:darya.patsko</li>
+                        <li class="contacts_item">E-mail:darya.patsko@mail.ru</li>
+                        <li class="contacts_item"><a href="https://www.linkedin.com/in/daria-patsko-2a9b38253/" target="_blank">LinkedIn</a></li>
+                        <li class="contacts_item">Minsk, Belarus</li>
+                    </ul>
+            </div>
+       
+            <div class="courses" id="courses">
+                <h2 class="title_courses">Courses</h2>
+                    <ul>
+                        <li class="courses_link"><a href="https://stepik.org/cert/1580626" target="_blank">Stepik:Интерактивный тренажер по SQL</a></li>
+                        <li class="courses_link"><a href="https://stepik.org/cert/1452226" target="_blank">Stepik:Основы тестирования игр</a></li>
+                    </ul>
+            </div>
+           
+            <div class="skills" id="skills">
+                <h2 class="title_skils">Skills</h2>
+                    <ul class="list_skills">
+                        <li class="skills_item">HTML</li>
+                        <li class="skills_item">CSS</li>
+                        <li class="skills_item">GIT</li>
+                        <li class="skills_item">JavaScript</li>
+                    </ul>
+            </div>
+        </section>
+
+
+        <section class="right_side">
+
+            <div class="summary" id="summary" >
+                <h2 class="title_summary">Summary</h2>
+                <p>I'm an enthusiastic and hardworking Frontend developer seeking an entry-level position with company. I have experience with data analysis, working with documentation.  Always ready to learn something new, attentive to details, responsible for tasks.</p>
+            </div>
+
+
+            <div class="code" id="code" >
+                <h2 class="title_code">Code</h2>
+                <code>
+                    function factoral(n) {
+                    if (n <0) return null;
+                    if (n <= 1) return 1;
+                    return n * factorial(n-1);
+                    }
+                </code>
+
+            </div>
+             
+
+            <div class="education" id="education">
+                <h2 class="title_education">Education</h2>
+                    <p>Belarusian State Medical University</p>
+                    <p>2013-2019</p>
+                    <p>Pediatric Faculty</p>
+            </div>
+
+            <div class="english" id="english">
+                <h2 class="title_english">English</h2>
+                    <p>English-B1</p> 
+                    <a href="https://www.efset.org/cert/p4L1pc" target="_blank">EFSET Sertificate</a>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        
+        <a class="footer_github" href="https://github.com/daryapatsko" target="_blank">GitHub</a>
+        <a class="footer_rss" href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" alt="logo" width="60px" height="60px"></a> 
+        <p class="footer_year">2022-2023</p>
+     
+          
+    </footer> 
+   </div>
 </body>
+
 </html>
