@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Lato;
+    src: url("./assets/fonts/Lato.ttf")
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 60px;
+    border: 10px solid white;
+    padding: 20px;
+}
+
+.header {
+   position:relative;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   background-color: rgba(246, 237, 237, 0.925);
+}
+
+.header-title{
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    color: #f9dd94 ;
+}
+      
+.header_title::before,
+.header_title::after {
+    content: "";
+    height: 4px;
+    background: #d7ba7a;
+    display: block;
+    transition: width 0.3s ease-in-out;
+    margin: 0 auto;
+}
+      
+.header_title:hover::before { width: 100%; }
+.header_title:hover::after { width: 0; }
+
+.header_title::before { width: 0; }
+.header_title::after { width: 100%; }
+
+.navigation_list{
+    display: flex;
+    justify-items: flex-end;
+    margin-top: 100px;
+       
+}
+.navigation_item{
+    display: inline-block;
+    width: 90px;
+}
+
+.navigation_item{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#91562c;
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.resume{
+    max-width: 1024px;
+    display: flex;
+
+}
+.footer {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+section{
+    display: block;
+}
+
+.left_side{
+    padding-left:20px ;
+    width: 100%;
+    background-color:#eec7ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.right_side{
+    position: relative;
+    background: rgb(238, 221, 201);
+    padding: 40px;
+}
+.contacts {
+    padding-top: 40px;
+}
+
+h2 { 
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+:link{
+    color:#91562c;
+}
+:visited{
+    color:rgb(108, 103, 103);
+}
+.footer_rss{
+    width:60px;
+    height:60px;
+}
+
+.contacts_list{
+    list-style: none;
+}
+   
